@@ -1,0 +1,32 @@
+a{
+    color: black;
+    margin-right: 10px;
+    font-family: 'Helvetica';
+}
+#title-slider{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Helvetica';
+}
+#menuDrop{
+    margin-top: 10px;
+}
+#cards{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: darkslateblue;
+    font-size: x-large;
+    font-weight: bold;
+}
+h4{
+    text-align: justify;
+    font-weight: bold;
+    color:darkslateblue;
+}
+h5{
+    text-align: justify;
+}
