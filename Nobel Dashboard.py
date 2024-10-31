@@ -3,6 +3,7 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
 import pycountry
+import os
 
 app = Dash(external_stylesheets=[dbc.themes.CERULEAN])
 
@@ -150,4 +151,5 @@ app.layout = html.Div([
 ])
 
 if __name__=='__main__':
-    app.run_server(debug=True)
+    port = int(os.environ.get("PORT", 8050))
+    app.run_server(host='0.0.0.0', port=port, debug=True)
